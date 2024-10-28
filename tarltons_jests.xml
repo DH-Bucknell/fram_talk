@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,560 +12,7 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?person_annotation_20240921123010704",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-09-21T16:30:10.704Z",
-	"dcterms:modified": "2024-09-21T16:30:10.704Z",
-	"dcterms:creator": {
-		"@id": "9",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?person_annotation_20240921123010704#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf.bucknell.edu",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?person_annotation_20240921123010704#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/div/p/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q7207",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf.bucknell.edu",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?place_annotation_20240921123153876",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-09-21T16:31:53.876Z",
-	"dcterms:modified": "2024-09-21T16:31:53.876Z",
-	"dcterms:creator": {
-		"@id": "9",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?place_annotation_20240921123153876#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf.bucknell.edu",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?place_annotation_20240921123153876#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/div[2]/p/placeName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q846686",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf.bucknell.edu",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?place_annotation_20240921172843875",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-09-21T21:28:43.875Z",
-	"dcterms:creator": {
-		"@id": "9",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?place_annotation_20240921172843875#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf.bucknell.edu",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?place_annotation_20240921172843875#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/div[3]/p/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q693450",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf.bucknell.edu",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high",
-	"cwrc:hasPrecision": "cwrc:mediumCertainty"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?person_annotation_20240921173455838",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-09-21T21:34:55.838Z",
-	"dcterms:creator": {
-		"@id": "9",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?person_annotation_20240921173455838#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf.bucknell.edu",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?person_annotation_20240921173455838#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/div[6]/p/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q7207",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf.bucknell.edu",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?place_annotation_20240921173517775",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-09-21T21:35:17.775Z",
-	"dcterms:creator": {
-		"@id": "9",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?place_annotation_20240921173517775#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf.bucknell.edu",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?place_annotation_20240921173517775#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/div[6]/p/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q756819",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf.bucknell.edu",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?person_annotation_20240921173624808",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-09-21T21:36:24.808Z",
-	"dcterms:creator": {
-		"@id": "9",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?person_annotation_20240921173624808#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf.bucknell.edu",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?person_annotation_20240921173624808#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/div[6]/p/persName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q354309",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf.bucknell.edu",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?place_annotation_20240929142646150",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-09-29T18:26:46.150Z",
-	"dcterms:modified": "2024-09-29T18:26:46.150Z",
-	"dcterms:creator": {
-		"@id": "9",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Diane Jakacki"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?place_annotation_20240929142646150#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf.bucknell.edu",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://leaf.bucknell.edu/sites/default/files/2024-09/tarltons_jests_os_0_0.xml?place_annotation_20240929142646150#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/div[7]/p/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "http://www.wikidata.org/entity/Q693450",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf.bucknell.edu",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	}
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
+   </teiHeader>
    <text>
       <body>
          <div>
@@ -573,80 +21,98 @@
                <head>Tarltons Court Witty Jests</head>
                <div>
                   <head>Tarlton Played the Drunkard Before the Queen.</head>
-                  <p><persName key="Elizabeth I of England" ref="http://www.wikidata.org/entity/Q7207" cert="high" type="real">The Queen</persName> being discontented, which Tarlton perceiving, took upon him to
+                  <p>The Queen being discontented, which Tarlton perceiving, took upon him to
                      delight her with some quaint jest, whereupon he counterfeited a drunkard, and
-                     calling for <objectName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" xml:space="default" type="drink">beer</objectName>, which was brought immediately. Her Majesty, noting his
-                     humor, commanded that he should have no more, for quoth she, "he will play the
-                     beast and so shame himself." "Fear not you," quoth Tarlton, "for your beer is
-                     small enough." Whereat her Majesty laughed heartily, and commanded that he
-                     should have enough. </p>
+                     calling for beer, which was brought immediately. Her Majesty, noting his humor,
+                     commanded that he should have no more, for quoth she, "he will play the beast
+                     and so shame himself." "Fear not you," quoth Tarlton, "for your beer is small
+                     enough." Whereat her Majesty laughed heartily, and commanded that he should
+                     have enough. </p>
                </div>
                <div>
                   <head>How Tarlton deceiued the Watch in Fleetstreet.</head>
-                  <p>Tarlton having been late at <placeName>the Court</placeName>, and coming homewards through
-                     <placeName key="Fleet Street" ref="http://www.wikidata.org/entity/Q846686">Fleet Street</placeName>, he espyed <orgName>the Watch. N</orgName>ot knowing how to pass them went very
-                     fast, thinking by that means to go unexamined; but the Watchmen perceiving
-                     that he shunned them, stepped to him and commanded him (in the Queen's name) to
-                     stand. "Stand", quoth Tarlton, 'let them stand that can, for I cannot." So falling
-                     down as though he had been drunk, they helped him up, and so let him pass.
-                  </p>
+                  <p>Tarlton having been late at the Court, and coming homewards through Fleet
+                     Street, he espyed the Watch. Not knowing how to pass them went very fast,
+                     thinking by that means to go unexamined; but the Watchmen perceiving that he
+                     shunned them, stepped to him and commanded him (in the Queen's name) to stand.
+                     "Stand", quoth Tarlton, 'let them stand that can, for I cannot." So falling
+                     down as though he had been drunk, they helped him up, and so let him pass. </p>
                </div>
                <div>
                   <head>How Tarlton flouted a Lady in the Court.</head>
-                  <p>Upon a time, Tarlton being among certain ladies at a <eventName>banquet</eventName> which was at
-                     <placeName key="Royal Borough of Greenwich" ref="http://www.wikidata.org/entity/Q693450" cert="high">Greenwich<precision match="@ref" precision="medium"/></placeName>, the Queen then lying there, one of the ladies had her face full of
-                     pimples with heat at her stomach, for which cause she refused to drink <objectName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" type="drink" xml:space="default">wine</objectName>
+                  <p>Upon a time, Tarlton being among certain ladies at a banquet which was at
+                     Greenwich, the Queen then lying there, one of the ladies had her face full of
+                     pimples with heat at her stomach, for which cause she refused to drink wine
                      amongst the rest of the ladies, which Tarlton perceiving (for he was there of
                      purpose to jest amongst them) quoth he, "a murren of that face which makes all
-                     the body fare the worse for it." At which the rest of the ladies laughed, and she
-                     blushing for shame left the banquet. </p>
+                     the body fare the worse for it." At which the rest of the ladies laughed, and
+                     she blushing for shame left the banquet. </p>
                </div>
                <div>
                   <head>Tarlton's Opinion of Oysters.</head>
-                  <p>Certain noblemen and ladies of the <orgName type="royal">court</orgName>, being eating of <objectName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" type="food" xml:space="default">oysters</objectName>, one of them
-                     seeing Tarlton, called him, and asked if he loved oysters. "No," quoth Tarlton, "for they be ungodly meat, uncharitable meat, &amp; unprofitable meat." "Why?" quoth the Courtiers. "They are ungodly, because they are eaten without grace; uncharitable, because they leave nought but shells; and unprofitable, because
+                  <p>Certain noblemen and ladies of the court, being eating of oysters, one of them
+                     seeing Tarlton, called him, and asked if he loved oysters. "No," quoth Tarlton,
+                     "for they be ungodly meat, uncharitable meat, &amp; unprofitable meat." "Why?"
+                     quoth the Courtiers. "They are ungodly, because they are eaten without grace;
+                     uncharitable, because they leave nought but shells; and unprofitable, because
                      they must swim in wine."</p>
                </div>
                <div>
                   <head>Tarlton's Resolution of a Question.</head>
                   <p>One of the company taking the gentleman's part, asked Tarlton at what time he
-                     thought the Devil to be most busied? "When the Pope dies," quoth he. "Why?" says
-                     the Courtier. "Marry," answered he, "then all the devils are troubled and busied
-                     to plague him, for he hath sent many a soul before him thither, that exclaim against him."</p>
+                     thought the Devil to be most busied? "When the Pope dies," quoth he. "Why?"
+                     says the Courtier. "Marry," answered he, "then all the devils are troubled and
+                     busied to plague him, for he hath sent many a soul before him thither, that
+                     exclaim against him."</p>
                </div>
                <div>
                   <head>How a Parsonage Fell into Tarlton's Hands.</head>
-                  <p><persName key="Elizabeth I of England" ref="http://www.wikidata.org/entity/Q7207" cert="high" type="real">Her Majesty</persName> dining in <placeName key="Strand" ref="http://www.wikidata.org/entity/Q756819">the Strand</placeName> at the <persName key="William Cecil, 1st Baron Burghley" ref="http://www.wikidata.org/entity/Q354309">Lord Treasurer's</persName>, the lords were very
-                     desirous that she would vouchsafe to stay all night, but nothing could prevail with her. Tarlton was in his clown's apparell, being at dinner while in the
+                  <p>Her Majesty dining in the Strand at the Lord Treasurer's, the lords were very
+                     desirous that she would vouchsafe to stay all night, but nothing could prevail
+                     with her. Tarlton was in his clown's apparell, being at dinner while in the
                      presence with her, to make her merry, and hearing the sorrow that the noblemen
                      made that they could not work her stay, he asked the nobles what they would
-                     give him to work her stay The lords promised him any thing, to perform it. Quoth he, "procure me the Parsonage of Shard." They caused the patent to be
-                     drawn presently, he got on a <objectName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" type="clothing" xml:space="default">parson's gown</objectName>, and a <objectName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" type="clothing" xml:space="default">corner cap</objectName>, and standing upon the stairs where the Queen should descend, he repeated these words: "a parson or no parson? A parson or no parson?" But after she knew his meaning, she
-                     not only stayed all night, but the next day willed he should have possession
-                     of the benefice. A madder parson was never, for he threatened to turn the bell metal into lining for his purse, which he did, the parsonage and all,
-                     into ready money. </p>
+                     give him to work her stay The lords promised him any thing, to perform it.
+                     Quoth he, "procure me the Parsonage of Shard." They caused the patent to be
+                     drawn presently, he got on a parson's gown, and a corner cap, and standing upon
+                     the stairs where the Queen should descend, he repeated these words: "a parson
+                     or no parson? A parson or no parson?" But after she knew his meaning, she not
+                     only stayed all night, but the next day willed he should have possession of the
+                     benefice. A madder parson was never, for he threatened to turn the bell metal
+                     into lining for his purse, which he did, the parsonage and all, into ready
+                     money. </p>
                </div>
                <div>
                   <head>How Tarlton Proved Two Gentlewomen Dishonest by Their Own Words.</head>
-                  <p>Tarlton seeing in <placeName key="Royal Borough of Greenwich" ref="http://www.wikidata.org/entity/Q693450">Greenwich</placeName> two gentlewomen in the garden together, to move
-                     myrth, comes to them, and enquires thus, "Gentlewomen, which of you two is the
-                     honester?" "I," says the one, "I hope without exceptions." "And I," quoth the other, "since we must speak for ourselves." "So then," says Tarlton, "one of you by your
-                     own words is dishonest: one being honester then the other, else you would
-                     answer otherwise. But as I found you, so I leave you."</p>
+                  <p>Tarlton seeing in Greenwich two
+                     gentlewomen in the garden together, to move myrth, comes to them, and enquires
+                     thus, "Gentlewomen, which of you two is the honester?" "I," says the one, "I
+                     hope without exceptions." "And I," quoth the other, "since we must speak for
+                     ourselves." "So then," says Tarlton, "one of you by your own words is
+                     dishonest: one being honester then the other, else you would answer otherwise.
+                     But as I found you, so I leave you."</p>
                </div>
                <div>
                   <head>How Tarlton Answered a Wanton Gentlewoman.</head>
-                  <p>A gentlewoman merrily disposed, being crossed by Tarlton, and half angry, said, "Sirra, a little thing would make me requite you with a cuff." "With a cuff, lady," says Tarlton, "so would you spell my sorrow forward, but spell my sorrow
-                     backward? Then cuff me and spare not." When the gentlemen by considered of the word, their laughing made the simple-meaning gentlewoman to blush for shame.
+                  <p>A gentlewoman merrily disposed, being crossed by Tarlton, and half angry, said,
+                     "Sirra, a little thing would make me requite you with a cuff." "With a cuff,
+                     lady," says Tarlton, "so would you spell my sorrow forward, but spell my sorrow
+                     backward? Then cuff me and spare not." When the gentlemen by considered of the
+                     word, their laughing made the simple-meaning gentlewoman to blush for shame.
                   </p>
                </div>
                <div>
                   <head>How Tarlton Dared a Lady.</head>
-                  <p>At the dinner in the <placeName>great Chamber</placeName> where Tarlton jested, the ladies were daring
-                     one another. Quoth one, "I ever durst any thing that is honest and honourable." "A French crown of that," says Tarlton. "Ten pound of that," says the Lady. "Done," says one. "Done," says another. Tarlton put a <rs>two-pence</rs> betwixt his lips, and
-                     dared her to take it away with her lips. "Fie," says she, "that is immodesty." "What, to kiss?" says Tarlton. "Then immodesty bears a great hand over all. But
-                     once in your life say, you haue been beaten at your own weapon." "Well sir," says she, "you may say any thing." "Then," says Tarlton, "remember I say you dare
-                     not, and so my wager is good."</p>
+                  <p>At the dinner in the great Chamber where Tarlton jested,
+                     the ladies were daring one another. Quoth one, "I ever durst any thing that is
+                     honest and honourable." "A French crown of that," says Tarlton. "Ten pound of
+                     that," says the Lady. "Done," says one. "Done," says another. Tarlton put a
+                        <rs>two-pence</rs> betwixt his lips, and dared her to take it away with her
+                     lips. "Fie," says she, "that is immodesty." "What, to kiss?" says Tarlton.
+                     "Then immodesty bears a great hand over all. But once in your life say, you
+                     haue been beaten at your own weapon." "Well sir," says she, "you may say any
+                     thing." "Then," says Tarlton, "remember I say you dare not, and so my wager is
+                     good."</p>
                </div>
                <div>
                   <head>How Tarlton landed at Cuckolds hauen.</head>
@@ -1216,15 +682,15 @@
                      sée M. Sunbancke comming, who had this propertie with his necke, not to stirre
                      it any way, but to turne body &amp; all: it chanced at the Faire end, he stood
                      to pisse against a wall: to whom Tarlton came, and clapping him on the
-                     shoulder, &amp;gt;God giue you ioy of your marriage, saies he: M. Sunbanke being taken
-                     pissing against the wall, would haue lookt backe to thanke him, and suddainly
-                     turnes about body and all, in the view of many, and shewed all: which so abasht
-                     him, that ashamed he tooke into a Tauerne, protesting that he had rather haue
-                     spent ten pound: sure sayd the Vintner, the fault is in your necke, who will
-                     not turne without the bodies assistance, and not in M. Tarlton: Call you him M.
-                     Tarlton, saies M. Sunbancke? I Sir, saies the Vintner, he is the Quéens Iester:
-                     he may be whose Iester he will be, but this Iest agrées not with me at this
-                     time. </p>
+                     shoulder, &amp;gt;God giue you ioy of your marriage, saies he: M. Sunbanke
+                     being taken pissing against the wall, would haue lookt backe to thanke him, and
+                     suddainly turnes about body and all, in the view of many, and shewed all: which
+                     so abasht him, that ashamed he tooke into a Tauerne, protesting that he had
+                     rather haue spent ten pound: sure sayd the Vintner, the fault is in your necke,
+                     who will not turne without the bodies assistance, and not in M. Tarlton: Call
+                     you him M. Tarlton, saies M. Sunbancke? I Sir, saies the Vintner, he is the
+                     Quéens Iester: he may be whose Iester he will be, but this Iest agrées not with
+                     me at this time. </p>
                </div>
                <div>
                   <head>A Iest broken of Tarlton by a Country Gentleman.</head>
@@ -1496,9 +962,9 @@
                      agreed to everything, like a subtill oastesse : and it fell so out that
                      Tarlton, having her in a roome at her house, askt her which of those two beds
                      were big enough for them two. This, said she : therefore, goe to bed,
-                     type="trait"&amp;gt;sweet-heart, Ile come to thee. Masse, saies Tarlton, were my
-                     bootes off, I would, indeed. Ile help you, sir, saies she, if you please. Yea,
-                     thought Tarlton, is the wind in that doore? Come on, then. And she very
+                     type="trait"&amp;gt;sweet-heart, Ile come to thee. Masse, saies Tarlton, were
+                     my bootes off, I would, indeed. Ile help you, sir, saies she, if you please.
+                     Yea, thought Tarlton, is the wind in that doore? Come on, then. And she very
                      diligently begins to pull, till one boot was half off. Now, saies she, this
                      being hard to doe, let me try my cunning on the other, and so get off both.
                      But, having both half off his legs, she left. him alone in the shoemakers
